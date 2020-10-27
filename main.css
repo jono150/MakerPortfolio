@@ -30,7 +30,7 @@ img{
     transform: scale(1);
     transition: .5s ease;
 }
-video{
+iframe{
     width: 50%;
     margin: 5%;
     display: block;
