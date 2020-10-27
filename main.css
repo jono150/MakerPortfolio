@@ -22,7 +22,7 @@ body{
 }
 
 img{
-   width: 100%;
+    width: 100%;
     margin: 5%;
     display: block;
     margin-left: auto;
@@ -30,16 +30,44 @@ img{
     transform: scale(1);
     transition: .5s ease;
 }
-iframe{
-    width: 50%;
-    margin: 5%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    transition:.5s ease;
-}
-video:hover{
+.video{
     width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transform: scale(1.2);
+    transition: .3s ease;
+}
+#one{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    display: block;
+    transform: scale(1);
+    transition: .5s ease;
+}
+
+.pic:hover{
+    transform: scale(1.1);
+    opacity: .7;
+}
+#contain:hover .video{
+    opacity: 1;
+}
+#contain{
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin:5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contain:hover #one{
+    opacity: 0;
 }
 a{
     width: 50%;
@@ -50,10 +78,6 @@ a{
     padding: 0;
     transform: scale(1);
     transition: .5s ease;
-}
-img:hover{
-    transform: scale(1.1);
-    opacity: .7;
 }
 .description{
     text-align: center;
