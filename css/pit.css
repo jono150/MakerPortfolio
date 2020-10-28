@@ -1,19 +1,38 @@
+
+#Title{
+    display: inline;
+    position: relative;
+    font-family: serif;
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.holds{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin:0;
+    background: black;
+}
+.hButton{
+    float: left;
+    margin-left: 0;
+    font-size: 3vw;
+    color: white;
+    top: 0;
+    left: 0;
+}
+.home{
+    text-decoration: none;
+    color: white;
+}
 body{
     background: LightBlue;
     margin:0;
     padding:0;
-}
-#Title{
-    position: relative;
-    font-family: serif;
-    text-align: center;
-    font-size: 48px;
-    color: coral;
-    margin: 20;
-    margin-bottom: 0;
-    padding: 2%;
-    margin-top: 0;
-    background: black;
 }
 .pic{
     width: 100%;
