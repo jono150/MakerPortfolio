@@ -22,15 +22,22 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
+    margin: 0;
+    padding: 0;
 }
 td{
     position: relative;
-    width: 10%;
+    width: 25%;
     height: auto;
-    margin:0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
 
 }
 table{
-    margin:0;
+    margin: 0;
     padding: 0;
+}
+.description{
+    text-align: center;
 }
