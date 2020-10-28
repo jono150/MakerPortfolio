@@ -1,12 +1,11 @@
 #Title{
+    display: inline;
     position: relative;
     font-family: serif;
     text-align: center;
-    font-size: 48px;
-    color: coral;
-    margin: 20;
+    font-size: 5vw;
+    color: white;
     margin-bottom: 0;
-    padding: 2%;
     margin-top: 0;
     background: black;
 }
@@ -17,7 +16,6 @@ body{
 }
 
 #wd{
-    background: ;
     width: 100%;
 }
 img{
@@ -84,4 +82,29 @@ iframe{
 }
 .description{
     text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2vw;
+}
+.holds{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1%;
+    margin:0;
+    background: black;
+}
+.hButton{
+    float: left;
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 1%;
+}
+.home{
+    text-decoration: none;
+    color:white;
 }
