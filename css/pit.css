@@ -1,0 +1,36 @@
+body{
+    background: LightBlue;
+    margin:0;
+    padding:0;
+}
+#Title{
+    position: relative;
+    font-family: serif;
+    text-align: center;
+    font-size: 48px;
+    color: coral;
+    margin: 20;
+    margin-bottom: 0;
+    padding: 2%;
+    margin-top: 0;
+    background: black;
+}
+.pic{
+    width: 100%;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+td{
+    position: relative;
+    width: 10%;
+    height: auto;
+    margin:0px;
+
+}
+table{
+    margin:0;
+    padding: 0;
+}
