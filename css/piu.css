@@ -1,0 +1,78 @@
+
+#Title{
+    display: inline;
+    position: relative;
+    font-family: serif;
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.holds{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin:0;
+    background: black;
+}
+.hButton{
+    position: absolute;
+    float: left;
+    margin-left: 0;
+    font-size: 3vw;
+    color: white;
+    top: 15%;
+    left: 1%;
+}
+.home{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background: LightBlue;
+    margin:0;
+    padding:0;
+}
+.pic{
+    width: 100%;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+td{
+    position: relative;
+    width: 25%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+table{
+    margin: 0;
+    padding: 0;
+}
+.description{
+    text-align: center;
+}
+p{
+    font-size: 2vw;
+    text-indent: 5%;
+    margin-bottom: 0;
+    margin-left: 2%;
+}
+.second{
+    margin-top: 0;
+}
+
+#code{
+    font-size: 1vw;
+    text-indent: 0;
+    margin-left: 1%;
+}
