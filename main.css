@@ -77,6 +77,14 @@ iframe{
     transform: scale(1);
     transition: .5s ease;
 }
+.img{
+    width: 50%;
+    margin: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
 .textlink{
     color: blue;
     text-decoration: underline;
